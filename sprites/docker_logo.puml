@@ -1,4 +1,4 @@
-sprite $devops_docker_logo [64x64/16] {
+sprite $dataengineer_docker_logo [64x64/16] {
 000000000000000000000000000169AAAA720000000000000000000000000000
 000000000000000000000000000169AAAA720000000000000000000000000000
 000000000000000000000000000169AAAA720000000000000000000000000000
@@ -65,9 +65,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA51000000000
 0000000000000013578899988765310000000000000000000000000000000000
 }
 
-!define DEVOPS_DOCKER_LOGO(_color)                                 SPRITE_PUT(                                      devops_docker_logo, _color)
-!define DEVOPS_DOCKER_LOGO(_color, _scale)                         SPRITE_PUT(                                      devops_docker_logo, _color, _scale)
-!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, DEVOPS DOCKER_LOGO,         devops_docker_logo, _color, _scale)
-!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, DEVOPS DOCKER_LOGO,         devops_docker_logo, _color, _scale, _shape)
-!define DEVOPS_DOCKER_LOGO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, DEVOPS DOCKER_LOGO, _label, devops_docker_logo, _color, _scale, _shape)
-skinparam folderBackgroundColor<<DEVOPS DOCKER_LOGO>> White
+!define DATAENGINEER_DOCKER_LOGO(_color)                                 SPRITE_PUT(                                            dataengineer_docker_logo, _color)
+!define DATAENGINEER_DOCKER_LOGO(_color, _scale)                         SPRITE_PUT(                                            dataengineer_docker_logo, _color, _scale)
+!define DATAENGINEER_DOCKER_LOGO(_color, _scale, _alias)                 SPRITE_ENT(  _alias, DATAENGINEER DOCKER_LOGO,         dataengineer_docker_logo, _color, _scale)
+!define DATAENGINEER_DOCKER_LOGO(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, DATAENGINEER DOCKER_LOGO,         dataengineer_docker_logo, _color, _scale, _shape)
+!define DATAENGINEER_DOCKER_LOGO(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, DATAENGINEER DOCKER_LOGO, _label, dataengineer_docker_logo, _color, _scale, _shape)
+skinparam folderBackgroundColor<<DATAENGINEER DOCKER_LOGO>> White

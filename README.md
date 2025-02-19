@@ -2,26 +2,20 @@
 
 ```plantuml
 @startuml test
-!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
+!define Devops https://raw.githubusercontent.com/vadivelselvaraj/datanengineer-plantuml-sprites/main/components
 !includeurl Devops/common.puml
 !includeurl Devops/docker.puml
-!includeurl Devops/caddy.puml
 !includeurl Devops/dev.puml
 
 DockerContainer(portainer, "Portainer")
-CaddyServer(caddy, "Reverse Proxy")
 DockerContainer(app1, "App")
 DockerContainer(app2, "App")
 HappyDeveloper(dev, "You")
 
-caddy --> portainer
-caddy -[#green]-> app1
-caddy --> app2
-dev -> caddy: example.com
 @enduml
 ```
 
-![image](https://github.com/xNok/devops-plantuml-sprites/assets/9772542/970317df-7e2a-4f73-90a1-14578fc186ff)
+![image](https://github.com/vadivelselvaraj/datanengineer-plantuml-sprites/assets/9772542/970317df-7e2a-4f73-90a1-14578fc186ff)
 
 
 ## More explaination and Instructiond

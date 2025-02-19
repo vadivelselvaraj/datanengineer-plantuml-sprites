@@ -1,17 +1,12 @@
 @startuml test
-!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
+!define Devops https://raw.githubusercontent.com/vadivelselvaraj/datanengineer-plantuml-sprites/main/components
 !includeurl Devops/common.puml
 
-!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
-!includeurl DevopsSprites/developer_happy.puml
-!includeurl DevopsSprites/caddy_server.puml
-!includeurl DevopsSprites/docker_logo.puml
+!define DataEngineerSprites https://raw.githubusercontent.com/vadivelselvaraj/datanengineer-plantuml-sprites/main/sprites
+!includeurl DataEngineerSprites/developer_happy.puml
+!includeurl DataEngineerSprites/docker_logo.puml
 
 DEVOPS_DOCKER_LOGO(Blue, 1, docker)
-DEVOPS_CADDY_SERVER(Green, 1, caddy)
 DEVOPS_DEVELOPER_HAPPY(Blue, 1, dev)
-
-dev -> caddy 
-caddy -> docker
 
 @endumls

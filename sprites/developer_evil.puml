@@ -1,4 +1,4 @@
-sprite $devops_developer_evil [47x64/16] {
+sprite $dataengineer_developer_evil [47x64/16] {
 00000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000
 00000000000100000000000000000000000000000000000
@@ -65,9 +65,9 @@ sprite $devops_developer_evil [47x64/16] {
 00000000000000000000000000000000000000000000000
 }
 
-!define DEVOPS_DEVELOPER_EVIL(_color)                                 SPRITE_PUT(                                         devops_developer_evil, _color)
-!define DEVOPS_DEVELOPER_EVIL(_color, _scale)                         SPRITE_PUT(                                         devops_developer_evil, _color, _scale)
-!define DEVOPS_DEVELOPER_EVIL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, DEVOPS DEVELOPER_EVIL,         devops_developer_evil, _color, _scale)
-!define DEVOPS_DEVELOPER_EVIL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, DEVOPS DEVELOPER_EVIL,         devops_developer_evil, _color, _scale, _shape)
-!define DEVOPS_DEVELOPER_EVIL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, DEVOPS DEVELOPER_EVIL, _label, devops_developer_evil, _color, _scale, _shape)
-skinparam folderBackgroundColor<<DEVOPS DEVELOPER_EVIL>> White
+!define DATAENGINEER_DEVELOPER_EVIL(_color)                                 SPRITE_PUT(                                               dataengineer_developer_evil, _color)
+!define DATAENGINEER_DEVELOPER_EVIL(_color, _scale)                         SPRITE_PUT(                                               dataengineer_developer_evil, _color, _scale)
+!define DATAENGINEER_DEVELOPER_EVIL(_color, _scale, _alias)                 SPRITE_ENT(  _alias, DATAENGINEER DEVELOPER_EVIL,         dataengineer_developer_evil, _color, _scale)
+!define DATAENGINEER_DEVELOPER_EVIL(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, DATAENGINEER DEVELOPER_EVIL,         dataengineer_developer_evil, _color, _scale, _shape)
+!define DATAENGINEER_DEVELOPER_EVIL(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, DATAENGINEER DEVELOPER_EVIL, _label, dataengineer_developer_evil, _color, _scale, _shape)
+skinparam folderBackgroundColor<<DATAENGINEER DEVELOPER_EVIL>> White
